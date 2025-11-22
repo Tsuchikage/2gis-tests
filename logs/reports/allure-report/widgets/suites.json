@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"29c0cb7b5eaf7c00c8d07be51548219f","name":"autotests.api_tests.negative.smoke","statistic":{"failed":2,"broken":0,"skipped":0,"passed":5,"unknown":0,"total":7}},{"uid":"e243e4753d8f92ca50145b241ca97632","name":"autotests.api_tests.crud","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}

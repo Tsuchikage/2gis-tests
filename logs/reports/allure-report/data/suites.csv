@@ -1,0 +1,18 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","287","Negative Smoke. Создание избранного места с некорректными значения latitude.","autotests.api_tests.negative.smoke","Fri Nov 21 20:56:12 MSK 2025","passed","Fri Nov 21 20:56:12 MSK 2025","TestNegativeRegionsSmokeApi","test_regions_negative_smoke_api","",""
+"
+        Баг: При отправке валидных граничных значений (lat=0, lon=0)
+        сервер отвечает 500 Internal Server Error, хотя должен быть 200.
+        ","230","Negative Smoke. Создание избранного места с валидными граничными данными latitude и longitude.","autotests.api_tests.negative.smoke","Fri Nov 21 20:56:12 MSK 2025","failed","Fri Nov 21 20:56:12 MSK 2025","TestNegativeRegionsSmokeApi","test_regions_negative_smoke_api","",""
+"","283","Negative Smoke. Создание избранного места без token.","autotests.api_tests.negative.smoke","Fri Nov 21 20:56:11 MSK 2025","passed","Fri Nov 21 20:56:11 MSK 2025","TestNegativeRegionsSmokeApi","test_regions_negative_smoke_api","",""
+"
+        Баг: При отправке невалидных граничных значений (title > 1000)
+        сервер отвечает 200, хотя должен быть 400.
+        ","284","Negative Smoke. Создание избранного места с некорректным title.","autotests.api_tests.negative.smoke","Fri Nov 21 20:56:11 MSK 2025","failed","Fri Nov 21 20:56:11 MSK 2025","TestNegativeRegionsSmokeApi","test_regions_negative_smoke_api","",""
+"","231","Negative Smoke. Создание избранного места с недопустимым color.","autotests.api_tests.negative.smoke","Fri Nov 21 20:56:11 MSK 2025","passed","Fri Nov 21 20:56:11 MSK 2025","TestNegativeRegionsSmokeApi","test_regions_negative_smoke_api","",""
+"","314","CRUD Create (RegionsApi). Создание избранного места.","autotests.api_tests.crud","Fri Nov 21 20:56:10 MSK 2025","passed","Fri Nov 21 20:56:10 MSK 2025","TestRegionsCrudApi","test_regions_crud_api","",""
+"","234","Negative Smoke. Создание избранного места с некорректными значения latitude.","autotests.api_tests.negative.smoke","Fri Nov 21 20:56:11 MSK 2025","passed","Fri Nov 21 20:56:12 MSK 2025","TestNegativeRegionsSmokeApi","test_regions_negative_smoke_api","",""
+"
+        Баг: При отправке невалидных граничных значений (title > 1000)
+        сервер отвечает 200, хотя должен быть 400.
+        ","231","Negative Smoke. Создание избранного места с некорректным title.","autotests.api_tests.negative.smoke","Fri Nov 21 20:56:10 MSK 2025","passed","Fri Nov 21 20:56:11 MSK 2025","TestNegativeRegionsSmokeApi","test_regions_negative_smoke_api","",""
